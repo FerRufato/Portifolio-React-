@@ -14,10 +14,10 @@ import styled from "styled-components";
 export const BotaoTema = styled.button`
   border-radius: 12px;
   padding: 8px;
-  color: #eee;
+  color:  ${(props) => props.theme.cordeFundo};
   font-size: 10px;
   font-weight: bold;
-  background-color: #282A35;
+  background-color:  ${(props) => props.theme.corPrincipal};
   cursor: pointer;
 
 `;
